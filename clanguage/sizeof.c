@@ -13,4 +13,5 @@ int main(){
     age=15;
     (age>=18)?printf("\n eligible 4 vote"):printf("\n Not eligible 4 vote");
     (a%2==0)?printf("\n No is even"):printf("\n No is odd");
+    
 }
