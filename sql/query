@@ -1,0 +1,9 @@
+create DATABASE sqldb_3to4;
+CREATE TABLE emp_mst ( 
+    id INTEGER PRIMARY KEY AUTO_INCREMENT, 
+    emp_name text NOT NULL, 
+    emp_age integer NULL, 
+    emp_salary integer NULL 
+);
+INSERT INTO emp_mst(`id`,`emp_name`,`emp_age`,`emp_salary`) VALUES ('',"yrtytry",25,45600);
+INSERT INTO emp_mst(`id`,`emp_name`,`emp_age`) VALUES ('',"yrtytry",25);
