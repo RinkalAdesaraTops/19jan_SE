@@ -45,4 +45,3 @@ SELECT * from emp_mst as e1
 left join emp_role_mst as e2 ON e2.emp_id = e1.id;
 
 SELECT * from emp_mst as e1 join emp_role_mst as e2 ON e2.emp_id = e1.id;
- 
